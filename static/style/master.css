@@ -5568,4 +5568,44 @@ h6 {
     margin: 0;
     font-size: 14px; }
 
+/* Education
+------------------*/
+.education-box {
+  padding: 15px 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s; }
+  .education-box:hover {
+    box-shadow: 0px 3px 20px 0px rgb(38 59 94 / 30%); }
+    @media (min-width: 576px) {
+      .education-box .education-year-col {
+        align-self: start;
+        border-right: 5px solid #d9832e; }
+      .education-box .education-detail-col {
+        padding-left: 40px; }
+    }
+    @media (max-width: 575px) {
+      .education-box .education-year-col {
+        margin-bottom: 0px; }
+      .education-box .education-detail-col {
+        margin-top: 0px; }
+      .education-box .education-detail-col .institute {
+        font-size: 25px; }
+      .education-box .education-detail-col .gpa {
+        font-size: 20px; }
+    }
+
+/* Education
+------------------*/
+#experience .feature-box-1:hover {
+  background: white;
+  border-color: white; }
+  #experience .feature-box-1:hover h5 {
+    color: unset; }
+.experience-logo {
+  max-width: 200px; }
+
 /*# sourceMappingURL=master.css.map */
